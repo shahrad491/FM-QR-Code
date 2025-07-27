@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@700,400&display=swap");
+:root {
+  --slate-900: #1f314f;
+  --slate-500: #68778d;
+  --slate-300: #d5e1ef;
+  --spacing-500: 40px;
+  --spacing-300: 24px;
+  --spacing-200: 16px;
+}
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: var(--slate-300);
+}
+
+.clearfix {
+  clear: both;
+  content: "";
+}
+
+main {
+  width: 100%;
+}
+
+.container {
+  margin: 30px auto;
+  width: 320px;
+  height: 499px;
+  padding: var(--spacing-200) var(--spacing-200) var(--spacing-500)
+    var(--spacing-200);
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+img {
+  width: 288px;
+  height: 288px;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-bottom: var(--spacing-300);
+  display: inline-block;
+}
+
+.text {
+  margin: 0 var(--spacing-200);
+  text-align: center;
+}
+
+// bold font is 22px 120% line height 0px letter spacing
+h1 {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.2;
+  letter-spacing: 0px;
+  color: var(--slate-900);
+}
+
+// regular font is 15px 140% line height 0.2px letter spacing
+p {
+  margin-top: var(--spacing-200);
+  color: var(--slate-500);
+  font-size: 15px;
+  line-height: 1.4;
+  letter-spacing: 0.2px;
+}
