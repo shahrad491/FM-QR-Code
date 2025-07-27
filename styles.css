@@ -11,6 +11,8 @@
 ::before,
 ::after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
@@ -61,20 +63,19 @@ img {
   text-align: center;
 }
 
-// bold font is 22px 120% line height 0px letter spacing
 h1 {
   font-weight: 700;
-  font-size: 22px;
+  font-size: 2.2rem;
   line-height: 1.2;
   letter-spacing: 0px;
   color: var(--slate-900);
+  margin: 0;
 }
 
-// regular font is 15px 140% line height 0.2px letter spacing
 p {
   margin-top: var(--spacing-200);
   color: var(--slate-500);
-  font-size: 15px;
+  font-size: 1.5rem;
   line-height: 1.4;
   letter-spacing: 0.2px;
 }
@@ -85,4 +86,13 @@ p {
   font-size: 16px;
   position: absolute;
   bottom: 0;
+}
+
+.attribution a {
+  color: blue;
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  color: #333;
 }
